@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/interface-v4/static/js/main.c058d4b4.chunk.js",
-    "main.js.map": "/interface-v4/static/js/main.c058d4b4.chunk.js.map",
+    "main.js": "/interface-v4/static/js/main.a4d86f41.chunk.js",
+    "main.js.map": "/interface-v4/static/js/main.a4d86f41.chunk.js.map",
     "runtime-main.js": "/interface-v4/static/js/runtime-main.e0624056.js",
     "runtime-main.js.map": "/interface-v4/static/js/runtime-main.e0624056.js.map",
     "static/css/2.8d0d1044.chunk.css": "/interface-v4/static/css/2.8d0d1044.chunk.css",
@@ -97,7 +97,7 @@
     "static/media/dot_line.41984dee.svg": "/interface-v4/static/media/dot_line.41984dee.svg",
     "static/media/dropdown.fef18eeb.svg": "/interface-v4/static/media/dropdown.fef18eeb.svg",
     "static/media/gas-icon.7653c8fe.svg": "/interface-v4/static/media/gas-icon.7653c8fe.svg",
-    "static/media/logo.09cebba0.svg": "/interface-v4/static/media/logo.09cebba0.svg",
+    "static/media/logo.2e791204.svg": "/interface-v4/static/media/logo.2e791204.svg",
     "static/media/matic-token-icon.da7b877d.svg": "/interface-v4/static/media/matic-token-icon.da7b877d.svg",
     "static/media/menu.79681e1f.svg": "/interface-v4/static/media/menu.79681e1f.svg",
     "static/media/metamask.02e3ec27.png": "/interface-v4/static/media/metamask.02e3ec27.png",
@@ -115,6 +115,6 @@
     "static/js/runtime-main.e0624056.js",
     "static/css/2.8d0d1044.chunk.css",
     "static/js/2.e8e4d54f.chunk.js",
-    "static/js/main.c058d4b4.chunk.js"
+    "static/js/main.a4d86f41.chunk.js"
   ]
 }
