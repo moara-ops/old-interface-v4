@@ -1,0 +1,30 @@
+{
+  "background_color": "#fff",
+  "description": "Swap or provide liquidity on the EnSwap Protocol",
+  "display": "standalone",
+  "homepage_url": "https://enftr.io",
+  "iconPath": "./images/256x256_App_Icon_Pink.svg",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "192x192",
+      "src": "./images/192x192_App_Icon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "./images/512x512_App_Icon.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "EnSwap",
+  "orientation": "portrait",
+  "providedBy": {
+    "name": "EnSwap",
+    "url": "https://enftr.io"
+  },
+  "short_name": "EnSwap",
+  "start_url": ".",
+  "theme_color": "#ff007a"
+}
