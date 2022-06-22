@@ -242,25 +242,25 @@ export default function Menu() {
               default:
                 return (
                   <MenuFlyout>
-                    <MenuItem href="https://uniswap.org/">
+                    <MenuItem href="https://enftr.io">
                       <div>
                         <Trans>About</Trans>
                       </div>
                       <Info opacity={0.6} size={16} />
                     </MenuItem>
-                    <MenuItem href="https://help.uniswap.org/">
+                    <MenuItem href="https://enftr.io">
                       <div>
                         <Trans>Help Center</Trans>
                       </div>
                       <HelpCircle opacity={0.6} size={16} />
                     </MenuItem>
-                    <MenuItem href="https://uniswap.canny.io/feature-requests">
+                    <MenuItem href="https://enftr.io">
                       <div>
                         <Trans>Request Features</Trans>
                       </div>
                       <Coffee opacity={0.6} size={16} />
                     </MenuItem>
-                    <MenuItem href="https://discord.gg/FCfyBSbCU5">
+                    <MenuItem href="https://enftr.io">
                       <div>
                         <Trans>Discord</Trans>
                       </div>
@@ -276,7 +276,7 @@ export default function Menu() {
                       <div>{darkMode ? <Trans>Light Theme</Trans> : <Trans>Dark Theme</Trans>}</div>
                       {darkMode ? <Moon opacity={0.6} size={16} /> : <Sun opacity={0.6} size={16} />}
                     </ToggleMenuItem>
-                    <MenuItem href="https://docs.uniswap.org/">
+                    <MenuItem href="https://enftr.io">
                       <div>
                         <Trans>Docs</Trans>
                       </div>
@@ -288,7 +288,7 @@ export default function Menu() {
                       </div>
                       <FileText opacity={0.6} size={16} />
                     </ToggleMenuItem>
-                    {showUNIClaimOption && (
+                    {/* {showUNIClaimOption && (
                       <UNIbutton
                         onClick={openClaimModal}
                         padding="8px 16px"
@@ -296,9 +296,9 @@ export default function Menu() {
                         $borderRadius="12px"
                         mt="0.5rem"
                       >
-                        <Trans>Claim UNI</Trans>
+                        <Trans>Claim ENP</Trans>
                       </UNIbutton>
-                    )}
+                    )} */}
                   </MenuFlyout>
                 )
             }

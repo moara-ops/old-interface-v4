@@ -101,12 +101,12 @@ export default function ClaimModal() {
             <CardSection gap="md">
               <RowBetween>
                 <ThemedText.White fontWeight={500}>
-                  <Trans>Claim UNI</Trans>
+                  <Trans>Claim ENP</Trans>
                 </ThemedText.White>
                 <CloseIcon onClick={toggleClaimModal} style={{ zIndex: 99 }} color="white" />
               </RowBetween>
               <ThemedText.White fontWeight={700} fontSize={36}>
-                <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} UNI</Trans>
+                <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} ENP</Trans>
               </ThemedText.White>
             </CardSection>
             <Break />
@@ -115,7 +115,7 @@ export default function ClaimModal() {
                 <RowBetween>
                   <ThemedText.SubHeader color="white">SOCKS</ThemedText.SubHeader>
                   <ThemedText.SubHeader color="white">
-                    <Trans>{SOCKS_AMOUNT} UNI</Trans>
+                    <Trans>{SOCKS_AMOUNT} ENP</Trans>
                   </ThemedText.SubHeader>
                 </RowBetween>
               )}
@@ -131,7 +131,7 @@ export default function ClaimModal() {
                         {unclaimedAmount
                           .subtract(CurrencyAmount.fromRawAmount(unclaimedAmount.currency, nonLPAmount))
                           .toFixed(0, { groupSeparator: ',' })}{' '}
-                        UNI
+                        ENP
                       </Trans>
                     </ThemedText.SubHeader>
                   </RowBetween>
@@ -142,7 +142,7 @@ export default function ClaimModal() {
                     <Trans>User</Trans>
                   </ThemedText.SubHeader>
                   <ThemedText.SubHeader color="white">
-                    <Trans>{USER_AMOUNT} UNI</Trans>
+                    <Trans>{USER_AMOUNT} ENP</Trans>
                   </ThemedText.SubHeader>
                 </RowBetween>
               )}
@@ -151,10 +151,10 @@ export default function ClaimModal() {
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <ThemedText.SubHeader fontWeight={500}>
               <Trans>
-                As a member of the Uniswap community you may claim UNI to be used for voting and governance.
+                As a member of the EnSwap community you may claim ENP to be used for voting and governance.
                 <br />
                 <br />
-                <ExternalLink href="https://uniswap.org/blog/uni">Read more about UNI</ExternalLink>
+                <ExternalLink href="https://enftr.io/blog/enp">Read more about ENP</ExternalLink>
               </Trans>
             </ThemedText.SubHeader>
             <ButtonPrimary
@@ -165,7 +165,7 @@ export default function ClaimModal() {
               mt="1rem"
               onClick={onClaim}
             >
-              <Trans>Claim UNI</Trans>
+              <Trans>Claim ENP</Trans>
             </ButtonPrimary>
           </AutoColumn>
         </ContentWrapper>
@@ -182,7 +182,7 @@ export default function ClaimModal() {
             {!claimConfirmed ? (
               <CustomLightSpinner src={Circle} alt="loader" size={'90px'} />
             ) : (
-              <UniTokenAnimated width="72px" src={tokenLogo} alt="UNI" />
+              <UniTokenAnimated width="72px" src={tokenLogo} alt="ENP" />
             )}
           </ConfirmedIcon>
           <AutoColumn gap="100px" justify={'center'}>
@@ -192,7 +192,7 @@ export default function ClaimModal() {
               </ThemedText.LargeHeader>
               {!claimConfirmed && (
                 <Text fontSize={36} color={'#ff007a'} fontWeight={800}>
-                  <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} UNI</Trans>
+                  <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} ENP</Trans>
                 </Text>
               )}
             </AutoColumn>
@@ -203,7 +203,7 @@ export default function ClaimModal() {
                     <span role="img" aria-label="party-hat">
                       🎉{' '}
                     </span>
-                    Welcome to team Unicorn :){' '}
+                    Welcome to team En :){' '}
                     <span role="img" aria-label="party-hat">
                       🎉
                     </span>

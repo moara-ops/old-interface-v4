@@ -2,9 +2,11 @@
   "name": "@uniswap/widgets",
   "version": "1.0.7",
   "description": "Uniswap Interface",
-  "homepage": "https://MoAra1.github.io/interface-v4",
+  "homepage": "https://moara1.github.io/interface-v4",
   "license": "GPL-3.0-or-later",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "contracts:compile:abi": "typechain --target ethers-v5 --out-dir src/abis/types \"./src/abis/**/*.json\"",
     "contracts:compile:v3": "typechain --target ethers-v5 --out-dir src/types/v3 \"./node_modules/@uniswap/**/artifacts/contracts/**/*[!dbg].json\"",
     "contracts:compile": "yarn contracts:compile:abi && yarn contracts:compile:v3",

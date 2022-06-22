@@ -340,15 +340,12 @@ export default function WalletModal({
                 <AutoRow style={{ flexWrap: 'nowrap' }}>
                   <ThemedText.Body fontSize={12}>
                     <Trans>
-                      By connecting a wallet, you agree to Uniswap Labs’{' '}
-                      <ExternalLink
-                        style={{ textDecoration: 'underline' }}
-                        href="https://uniswap.org/terms-of-service/"
-                      >
+                      By connecting a wallet, you agree to EnSwap Labs’{' '}
+                      <ExternalLink style={{ textDecoration: 'underline' }} href="https://enftr.io/">
                         Terms of Service
                       </ExternalLink>{' '}
-                      and acknowledge that you have read and understand the Uniswap{' '}
-                      <ExternalLink style={{ textDecoration: 'underline' }} href="https://uniswap.org/disclaimer/">
+                      and acknowledge that you have read and understand the EnSwap{' '}
+                      <ExternalLink style={{ textDecoration: 'underline' }} href="https://enftr.io">
                         Protocol Disclaimer
                       </ExternalLink>
                       .
