@@ -2,7 +2,7 @@
   "name": "@uniswap/widgets",
   "version": "1.0.7",
   "description": "Uniswap Interface",
-  "homepage": "https://moara1.github.io/interface-v4",
+  "homepage": "https://endex.enftr.io",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "predeploy": "npm run build",
