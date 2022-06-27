@@ -49,7 +49,7 @@ const mediaWidthTemplates: { [width in keyof typeof MEDIA_WIDTHS]: typeof css } 
 ) as any
 
 const white = '#FFFFFF'
-const black = '#000000'
+const black = '#F7F8FA'
 
 function colors(darkMode: boolean): Colors {
   return {
