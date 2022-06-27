@@ -340,7 +340,7 @@ export default function WalletModal({
                 <AutoRow style={{ flexWrap: 'nowrap' }}>
                   <ThemedText.Body fontSize={12}>
                     <Trans>
-                      By connecting a wallet, you agree to EnSwap Labs’{' '}
+                      By connecting a wallet, you agree to EnDex Labs’{' '}
                       <ExternalLink style={{ textDecoration: 'underline' }} href="https://enftr.io/">
                         Terms of Service
                       </ExternalLink>{' '}

@@ -40,7 +40,7 @@ export default function ConnectedAccountBlocked(props: ConnectedAccountBlockedPr
           {props.account}
         </ThemedText.DarkGray>
         <ThemedText.Main fontSize={14} marginBottom={12}>
-          <Trans>This address is blocked on the EnSwap Labs interface because it is associated with one or more</Trans>{' '}
+          <Trans>This address is blocked on the EnDex Labs interface because it is associated with one or more</Trans>{' '}
           <ExternalLink href="https://enftr.io/articles/6149816">
             <Trans>blocked activities</Trans>
           </ExternalLink>

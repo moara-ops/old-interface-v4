@@ -1,8 +1,8 @@
 {
   "name": "@uniswap/widgets",
   "version": "1.0.7",
-  "description": "Uniswap Interface",
-  "homepage": "https://endex.enftr.io",
+  "description": "EnDex Interface",
+  "homepage": "https://moara1.github.io/interface-v4",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "predeploy": "npm run build",

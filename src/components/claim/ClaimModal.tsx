@@ -151,7 +151,7 @@ export default function ClaimModal() {
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <ThemedText.SubHeader fontWeight={500}>
               <Trans>
-                As a member of the EnSwap community you may claim ENP to be used for voting and governance.
+                As a member of the EnDex community you may claim ENP to be used for voting and governance.
                 <br />
                 <br />
                 <ExternalLink href="https://enftr.io/blog/enp">Read more about ENP</ExternalLink>

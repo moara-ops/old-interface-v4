@@ -1,6 +1,6 @@
 {
   "background_color": "#fff",
-  "description": "Swap or provide liquidity on the EnSwap Protocol",
+  "description": "Swap or provide liquidity on the EnDex Protocol",
   "display": "standalone",
   "homepage_url": "https://enftr.io",
   "iconPath": "./images/256x256_App_Icon_Pink.svg",
